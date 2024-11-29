@@ -14,7 +14,7 @@ struct CustomButtonView: View {
     var body: some View {
         Text(title)
             .foregroundColor(.white)
-            .font(.title)
+            .font(.largeTitle)
             .padding(.horizontal,40)
             .padding(.vertical,20)
             .background(Color.red)
